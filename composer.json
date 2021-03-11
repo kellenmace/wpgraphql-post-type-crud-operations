@@ -1,0 +1,18 @@
+{
+  "name": "hwp-rockers/hwp-rockers",
+  "description": "HWP Rockers core plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Kellen Mace",
+      "email": "kellen.mace@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "HwpRockers\\": "src/"
+    }
+  }
+}
